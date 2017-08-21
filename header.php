@@ -27,49 +27,44 @@
     <?php if (is_singular() && pings_open(get_queried_object())): ?>
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <?php endif; ?>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <?php wp_head(); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </head>
 
 <body <?php body_class(); ?>>
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-expand-md navbar-inverse fixed-top">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Меню</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--<a class="navbar-brand" href="<?php //echo esc_url(home_url('/')); ?>"
-               rel="home"><?php //bloginfo('name'); ?>Академічний ліцей</a>-->
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse justify-content-between">
             <?php
             if (has_nav_menu('left-menu')) :
                 wp_nav_menu(array(
                     'container' => false,
                     'depth' => 2,
-                    'menu_class' => 'nav navbar-nav',
+                    'menu_class' => 'navbar-nav',
                     'theme_location' => 'left-menu',
                     'walker' => new BS_Nav_Menu()
                 ));
             endif; ?>
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a title="Вконтакте" href="https://vk.com/id14432507"><i class="fa fa-vk"></i></a>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" title="Вконтакте" href="https://vk.com/id14432507"><i class="fa fa-vk"></i></a>
                 </li>
-                <li>
-                    <a title="Facebook" href="https://www.facebook.com/vkomisarov"><i class="fa fa-facebook"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link" title="Facebook" href="https://www.facebook.com/vkomisarov"><i class="fa fa-facebook"></i></a>
                 </li>
-                <li>
-                    <a title="Google+" href="https://plus.google.com/u/0/118064018825389637098"><i class="fa fa-google-plus"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link" title="Google+" href="https://plus.google.com/u/0/118064018825389637098"><i class="fa fa-google-plus"></i></a>
                 </li>
-                <li>
-                    <a title="Twitter" href="https://twitter.com/Vakom1960"><i class="fa fa-twitter"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link" title="Twitter" href="https://twitter.com/Vakom1960"><i class="fa fa-twitter"></i></a>
                 </li>
-                <li>
-                    <a title="YouTube" href="https://www.youtube.com/channel/UCsg2us3mzEHW7z189LluWEw"><i class="fa fa-youtube-play"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link" title="YouTube" href="https://www.youtube.com/channel/UCsg2us3mzEHW7z189LluWEw"><i class="fa fa-youtube-play"></i></a>
                 </li>
             </ul>
         </div>

@@ -31,16 +31,16 @@ body {
     background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, -ms-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
     background: linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
     background-attachment: fixed, fixed, fixed !important;
-    padding-top: 50px;
+    padding-top: 56px;
+    background-size: cover;
 }
 
 #wpadminbar {
-    top: 50px;
+    top: 56px;
 }
 
 .content-gutter {
-    background: #fff;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(247, 247, 247, 0.8);
 }
 
 .jumbotron {
@@ -49,9 +49,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 0 50px;
     margin-bottom: 0;
     height: auto;
     min-height: 100%;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .landing-logo {
@@ -186,6 +190,16 @@ body {
     border-bottom: 1px dashed #427B9E;
 }
 
+.post-content .slogan {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 8px 0;
+    color: #212121;
+    padding: 8px;
+    border-left: 4px solid #4FC3F7;
+    background: #B3E5FC;
+}
+
 .post-thumb {
     background-color: #000;
     overflow: hidden;
@@ -204,7 +218,7 @@ body {
 }
 
 .post-body {
-    padding: 10px 5px;
+    padding: 16px 0;
 }
 
 .post-body p {
@@ -212,6 +226,7 @@ body {
 }
 
 .post-footer {
+    color: #757575;
     font-size: 12px;
 }
 
@@ -221,19 +236,13 @@ body {
 }
 
 .post-title {
-    margin: 0;
-    font-size: 22px;
-    color: #2F53C1;
-    font-weight: bold;
-    line-height: 48px;
-    vertical-align: middle;
-    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 1.75rem;
+    font-weight: lighter;
 }
 
 .post-title a {
-    vertical-align: middle;
-    display: inline-block;
-    line-height: 23px;
+    color: #212121;
 }
 
 /*=============== POST SINGLE ================*/
@@ -502,17 +511,12 @@ body {
     }
 }
 
-.jumbotron {
-    *background: transparent;
-    position: relative;
-    overflow: hidden;
-    background-position: 0 50px;
-}
-
 /* ============= END LANDING VIDEO ========== */
 
 .page-header {
-    margin-top: 0;
+    padding-bottom: 9px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
 }
 
 #lightgallery .img-responsive {
@@ -538,11 +542,19 @@ body {
     border-right: 1px solid #ccc;
 }
 
+.widget {
+    margin-bottom: 8px;
+}
+
 .widgettitle {
     background: #ccc;
     padding: 15px;
     margin-left: -15px;
     margin-right: -15px;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 1.125rem;
 }
 
 .widget ul {
@@ -633,6 +645,9 @@ body {
 }
 
 .post .read-more {
-    font-weight: bold;
-    color: red;
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 1.275rem;
+    border-bottom: 1px solid;
+    text-decoration: none;
 }

@@ -82,9 +82,6 @@ add_action('after_setup_theme', 'academlyc_setup');
  */
 function academlyc_scripts()
 {
-    // bootstrap.min.css
-    wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css');
-
     // font-awesome.min.css
     wp_enqueue_style('font_awesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
 
@@ -93,9 +90,6 @@ function academlyc_scripts()
 
 	// jquery.min.js    
     wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-2.2.2.min.js', array(), '20151219', true);
-
-    // bootstrap.min.js
-    wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151219', true);
 }
 
 add_action('wp_enqueue_scripts', 'academlyc_scripts');

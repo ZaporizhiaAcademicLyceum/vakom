@@ -26,7 +26,7 @@
             ));
             ?>
             </div>
-            <a class="read-more" href="<?php echo esc_url(get_permalink()); ?>" rel="bookmark">Читать далее &raquo;</a>       
+            <a class="read-more" href="<?php echo esc_url(get_permalink()); ?>" rel="bookmark">Читать далее <i class="fa fa-long-arrow-right"></i></a>       
         </div>
     </article>
 </div>

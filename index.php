@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <div class="container">
         <div class="row">
-            <img style="width: 100%" class="img-responsive" src="/wp-content/themes/forvakbysnosme/img/main-top.png">
+            <img style="width: 100%" class="img-fluid" src="/wp-content/themes/forvakbysnosme/img/main-top.png">
         </div>
         <div class="row content-gutter">
             <div class="col-sm-3">
