@@ -6,7 +6,7 @@
         </video>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="landing-logo"><img class="img-fluid" src="/wp-content/themes/forvakbysnosme/img/logo.png"></div>
                     <div class="landing-org-name"><h1>Работай и отдыхай<br>с удовольствием</h1></div>
                 </div>
