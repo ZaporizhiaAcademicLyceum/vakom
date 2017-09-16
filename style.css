@@ -23,13 +23,13 @@ html, body {
 }
 
 body {
-    background: #6AA2E2 url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat fixed;
-    background: linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, -webkit-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, -moz-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, -o-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, -ms-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
-    background: linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.png') no-repeat, linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: #6AA2E2 url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat fixed;
+    background: linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, -webkit-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, -moz-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, -o-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, -ms-linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
+    background: linear-gradient(top, rgba(255, 255, 255, 0.62) 0, rgba(27, 79, 138, 0.18) 775px, rgba(7, 21, 36, 0.26) 1050px) no-repeat, url('/wp-content/themes/forvakbysnosme/img/bg.jpg') no-repeat, linear-gradient(top, #EAF2FB 0, #2A7AD5 775px, #1D5391 1050px) no-repeat;
     background-attachment: fixed, fixed, fixed !important;
     padding-top: 56px;
     background-size: cover;
